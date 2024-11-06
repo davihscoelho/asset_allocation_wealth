@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "projeto-asset-allocation"
+version = "0.1.0"
+description = ""
+authors = ["Davi Henrique <davihscoelho@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "^2.2.3"
+jupyter = "^1.1.1"
+lab = "^8.3"
+scipy = "^1.14.1"
+pybind11 = "^2.13.6"
+cvxpy = "^1.5.3"
+riskfolio-lib = "^6.3.1"
+openpyxl = "^3.1.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
